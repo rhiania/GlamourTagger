@@ -3,7 +3,7 @@
     "Author": "Rhiani",
     "Name": "Glamour Tagger",
     "InternalName": "GlamourTagger",
-    "AssemblyVersion": "1.0.0.0",
+    "AssemblyVersion": "1.0.0.1",
     "Description": "Designed to help you tag, flag, organize and filter items effortlessly to preview them, bridging the gap between massive item databases and style creation. \n\n- Create custom tags, manage those tags, flag items between 5 different categories \n- Filter them by your tags, flags and other attributes \n- Preview them one by one or cycle through them on your character or in the fitting room \n\nPrerequisites for preview on character: Glamourer",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/rhiania/GlamourTagger",
