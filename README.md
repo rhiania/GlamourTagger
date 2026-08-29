@@ -1,4 +1,4 @@
-# GlamourTagger
+# Glamour Tagger
 
 Designed to help you tag, flag, organize and filter all items effortlessly, bridging the gap between massive item databases and your glamours.
 
