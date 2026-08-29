@@ -1,0 +1,28 @@
+[
+  {
+    "Author": "Rhiani",
+    "Name": "Glamour Tagger",
+    "InternalName": "GlamourTagger",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "Designed to help you tag, flag, organize, and filter items effortlessly to preview them, \nbridging the gap between massive item databases and style creation. ",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/rhiania/GlamourTagger",
+    "DownloadLinkInstall": "https://github.com/rhiania/GlamourTagger/releases/download/v1.0.0/GlamourTagger.zip",
+    "DownloadLinkUpdate": "https://github.com/rhiania/GlamourTagger/releases/download/v1.0.0/GlamourTagger.zip",
+    "DownloadLinkTesting": "https://github.com/rhiania/GlamourTagger/releases/download/v1.0.0/GlamourTagger.zip",
+    "Tags": [
+      "glamour",
+      "glamourer",
+      "tag",
+      "filter",
+      "plugin"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Tag, flag and filter items for your glamours.",
+    "AcceptsFeedback": true
+  }
+]
