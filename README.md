@@ -43,6 +43,9 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
 
 7. **Chat Integration:**
    * Left-click any item name in the table to link the item directly into your chat.
+     
+8. **Item links:**
+   * Look up items directly in Garland Tools, Gamer Escape or Teamcraft.
 
 ---
 
