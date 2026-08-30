@@ -32,14 +32,14 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
 
 4. **Filter & Search:**
    * Use header search bars or pop-up menus (`▼`) to filter items.
-   * Switch between **OR Mode** (items matching *ANY* selected tag) and **AND Mode** (items matching *ALL* selected tags simultaneously).
+   * For tag filters, switch between **OR Mode** (items matching *ANY* selected tag) and **AND Mode** (items matching *ALL* selected tags simultaneously).
    * Check 'Only Show One Item Per Model Type' (with optional 'Ignore Variants') to clean up duplicate models.
 
 5. **Preview Items:**
    * Toggle between 'Glamourer Preview' and 'Fitting Room Try On'. Right-click any item to instantly preview.
 
 6. **Fast Scrolling:**
-   * Hover over the 'Scroll Here' button at the bottom, then hold `CTRL + Scroll Mouse Wheel` to rapidly cycle through filtered items.
+   * Hover over the 'Scroll Here' button at the bottom, then hold `CTRL + Scroll Mouse Wheel` to rapidly cycle through filtered items for preview.
 
 7. **Chat Integration:**
    * Left-click any item name in the table to link the item directly into your chat.
