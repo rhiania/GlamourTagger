@@ -54,7 +54,7 @@ As an example, I’ve shared my own personal tag collection in the example folde
 
 *This is a raw, uncurated collection of mine, created for my own organization of my favourite items — focusing mostly on hands, legs and footwear. It is a baseline reflecting my own wardrobe choices and may contain minor errors, while only some items are tagged. Feel free to use it as a base, tweak it, or build your own system upon it!*
 
-**How to use this, or any other collections**
+**How to use this, or any other collections:**
 1. Download or copy the `.json` file from the `/examples` folder.
 2. In-game, open **Glamour Tagger** -> **Options** -> **Tag Management**.
 3. Use the **Import & Merge** feature to load (and merge) the tags into your plugin.
