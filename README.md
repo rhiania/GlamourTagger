@@ -39,7 +39,7 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
    * Toggle between 'Glamourer Preview' and 'Fitting Room Try On'. Right-click any item to instantly preview.
 
 6. **Fast Scrolling:**
-   * Hover over the 'Scroll Here' button at the bottom, then hold `CTRL + Scroll Mouse Wheel` to rapidly cycle through filtered items for preview.
+   * Hover over the 'Scroll Here' button at the bottom, then hold `Scroll Mouse Wheel` to rapidly cycle through filtered items for preview.
 
 7. **Chat Integration:**
    * Left-click any item name in the table to link the item directly into your chat.
