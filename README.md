@@ -2,7 +2,7 @@
 
 Designed to help you tag, flag, organize and filter all items effortlessly, bridging the gap between massive item databases and your glamours.
 
-> **This mod would not have come to life without Glamourer.** Huge thanks to its developers for the inspiration and integration capabilities!
+> **This mod would not have come to life without [Glamourer](https://github.com/Otuv/Glamourer).** Huge thanks to its developers for the inspiration and integration capabilities!
 
 ---
 
