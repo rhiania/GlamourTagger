@@ -10,7 +10,7 @@ Designed to help you tag, flag, organize and filter all items effortlessly, brid
 
 To install this plugin in FFXIV via Dalamud, add the following custom repository URL:
 
-`https://raw.githubusercontent.com/rhiania/GlamourTagger/refs/heads/main/repo.json`
+```https://raw.githubusercontent.com/rhiania/GlamourTagger/refs/heads/main/repo.json```
 
 > **Prerequisite for character preview:** [Glamourer](https://github.com/Otuv/Glamourer) must be installed.
 
