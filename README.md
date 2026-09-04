@@ -45,7 +45,10 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
    * Left-click any item name in the table to link the item directly into your chat.
      
 8. **Item links:**
-   * Look up items directly in Garland Tools, Gamer Escape or Teamcraft.
+   * Quickly look up equipment items using integrated links to community databases:
+     * [Garland Tools](https://www.garlandtools.org/) for detailed item origin and recipe data.
+     * [Gamer Escape](https://ffxiv.gamerescape.com/) for complete item lore and acquisition guides.
+     * [FFXIV Teamcraft](https://ffxivteamcraft.com/) for craft tracking.
 
 ---
 
