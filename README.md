@@ -33,7 +33,7 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
 4. **Filter & Search:**
    * Use header search bars or pop-up menus (`▼`) to filter items.
    * For tag filters, switch between **OR Mode** (items matching *ANY* selected tag) and **AND Mode** (items matching *ALL* selected tags simultaneously), as well as hide filters with the **NOT** logic.
-   * Use 't:', 'j:', 'id:', 'm:' prefixes to quickly filter out tags, jobs, item IDs or model IDs.
+   * Use `t:`, `j:`, `id:`, `m:` prefixes to quickly filter out tags, jobs, item IDs or model IDs.
    * Check 'Only Show One Item Per Model Type' (with optional 'Ignore Variants') to clean up duplicate models.
 
 5. **Preview Items:**
