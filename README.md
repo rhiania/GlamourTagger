@@ -21,28 +21,29 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
 1. **Tag, Flag and Organize items:**
    * Flag your Favorites (`F`), Double Favorites (`DF`), Triple Favorites (`TF`), Wish-listed (`W`) or Double Wish-listed (`DW`) items by clicking the star or `W` symbols.
    * Use column header pop-ups to quickly bulk-add or bulk-remove flags for filtered items.
-   * Sync your favorites directly from Glamourer via the Options menu.
+   * Sync your favourites directly from Glamourer via the Options menu.
    * Assign custom tags or add/delete them by right-clicking (or `Ctrl + Shift + right-clicking`) in the tag column.
 
 2. **Manage Your Tags:**
    * Open `Options -> Tag Management` to rename tags, customize badge colors, view item counts, or delete tags (requires `Ctrl + Shift`).
 
-3. **Export or Import Tags:**
-   * Easily backup or share your tags via JSON files with custom directory path support.
+3. **Export or Import Tags, Favourites and Wishlists:**
+   * Easily back up or share your tags, favourites and wishlists via JSON files with custom directory path support.
 
 4. **Filter & Search:**
    * Use header search bars or pop-up menus (`▼`) to filter items.
-   * For tag filters, switch between **OR Mode** (items matching *ANY* selected tag) and **AND Mode** (items matching *ALL* selected tags simultaneously).
+   * For tag filters, switch between **OR Mode** (items matching *ANY* selected tag) and **AND Mode** (items matching *ALL* selected tags simultaneously), as well as hide filters with the **NOT** logic.
+   * Use 't:', 'j:', 'id:', 'm:' prefixes to quickly filter out tags, jobs, item IDs or model IDs.
    * Check 'Only Show One Item Per Model Type' (with optional 'Ignore Variants') to clean up duplicate models.
 
 5. **Preview Items:**
    * Toggle between 'Glamourer Preview' and 'Fitting Room Try On'. Right-click any item to instantly preview.
 
 6. **Fast Scrolling:**
-   * Hover over the 'Scroll Here' button at the bottom, then hold `Scroll Mouse Wheel` to rapidly cycle through filtered items for preview.
+   * Hover over the 'Scroll Here' button at the bottom, then `Scroll Mouse Wheel` to rapidly cycle through filtered items for preview.
 
 7. **Chat Integration:**
-   * Left-click any item name in the table to link the item directly into your chat.
+   * Shift + Left-click any item name in the table to link the item directly into your chat.
      
 8. **Item links:**
    * Quickly look up equipment items using integrated links to community databases:
