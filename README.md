@@ -31,7 +31,8 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
    * Easily back up or share your tags, favourites and wishlists via JSON files with custom directory path support.
 
 4. **Filter & Search:**
-   * Use header search bars or pop-up menus (`▼`) to filter items.
+   * Use the new Equipment bar to filter by item slots quickly (one slot with left-clicking and add item slots with right-clicking).
+   * Use headers or the search bars to filter items.
    * For tag filters, switch between **OR Mode** (items matching *ANY* selected tag) and **AND Mode** (items matching *ALL* selected tags simultaneously), as well as hide filters with the **NOT** logic.
    * Use `t:`, `j:`, `id:`, `m:` prefixes to quickly filter out tags, jobs, item IDs or model IDs.
    * Check 'Only Show One Item Per Model Type' (with optional 'Ignore Variants') to clean up duplicate models.
@@ -41,6 +42,7 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
 
 6. **Fast Scrolling:**
    * Hover over the 'Scroll Here' button at the bottom, then `Scroll Mouse Wheel` to rapidly cycle through filtered items for preview.
+   * Use the `Jump to item` button right by the scroll box to quickly navigate to the previewed/selected item in your list.
 
 7. **Chat Integration:**
    * Shift + Left-click any item name in the table to link the item directly into your chat.
@@ -50,6 +52,13 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
      * [Garland Tools](https://www.garlandtools.org/) for detailed item origin and recipe data.
      * [Gamer Escape](https://ffxiv.gamerescape.com/) for complete item lore and acquisition guides.
      * [FFXIV Teamcraft](https://ffxivteamcraft.com/) for craft tracking.
+
+9. **Adjust visuals:**
+    * Look up the visual adjustments for icon sizes in the Options menu - customize the size of icons in the lists or of the hover-over icon reveals.
+
+10. **Automatic backup system with restore functions:**
+    * The plugin has an automatic backup system to save your tags, flags and configs periodically and before importing to prevent data loss.
+    * Open the Backup & Restore Manager from the Options menu to inspect backups or restore your data via Merge or Full Reset modes.
 
 ---
 
