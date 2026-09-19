@@ -2,7 +2,13 @@
 
 Designed to help you tag, flag, organize and filter all items effortlessly, bridging the gap between massive item databases and your glamours.
 
-> **This mod would not have come to life without [Glamourer](https://github.com/Otuv/Glamourer).** Huge thanks to its developers for the inspiration and integration capabilities!
+> **This mod would not have come to life without [Glamourer](https://github.com/Otuv/Glamourer) or [Penumbra](https://github.com/xivdev/Penumbra).** Huge thanks to their developers for the inspiration and integration capabilities!
+
+---
+
+## New with v1.3.0.0
+* Left ring slot preview support!
+* Penumbra integration to see and filter by your mods!
 
 ---
 
@@ -14,12 +20,14 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
 
 > **Prerequisite for character preview:** [Glamourer](https://github.com/Otuv/Glamourer) must be installed.
 
+> **Prerequisite for mod listings and filters:** [Penumbra](https://github.com/xivdev/Penumbra) must be installed.
+
 ---
 
 ## Functions & Quick Guide
 
 1. **Tag, Flag and Organize items:**
-   * Flag your Favorites (`F`), Double Favorites (`DF`), Triple Favorites (`TF`), Wish-listed (`W`) or Double Wish-listed (`DW`) items by clicking the star or `W` symbols.
+   * Flag your Favorites (`F`), Double Favorites (`DF`), Triple Favorites (`TF`), Wish-listed (`W`) or Double Wish-listed (`DW`) items by clicking the `star` or `shopping basket` symbols.
    * Use column header pop-ups to quickly bulk-add or bulk-remove flags for filtered items.
    * Sync your favourites directly from Glamourer via the Options menu.
    * Assign custom tags or add/delete them by right-clicking (or `Ctrl + Shift + right-clicking`) in the tag column.
@@ -34,31 +42,43 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
    * Use the new Equipment bar to filter by item slots quickly (one slot with left-clicking and add item slots with right-clicking).
    * Use headers or the search bars to filter items.
    * For tag filters, switch between **OR Mode** (items matching *ANY* selected tag) and **AND Mode** (items matching *ALL* selected tags simultaneously), as well as hide filters with the **NOT** logic.
-   * Use `t:`, `j:`, `id:`, `m:` prefixes to quickly filter out tags, jobs, item IDs or model IDs.
+   * Use `t:`, `p:`, `j:`, `id:`, `m:` prefixes to quickly filter out tags, penumbra mods, jobs, item IDs or model IDs.
    * Check 'Only Show One Item Per Model Type' (with optional 'Ignore Variants') to clean up duplicate models.
 
 5. **Preview Items:**
    * Toggle between 'Glamourer Preview' and 'Fitting Room Try On'. Right-click any item to instantly preview.
+   * When previewing rings, you can select your right, your left or both of your hands to preview the items.
 
 6. **Fast Scrolling:**
    * Hover over the 'Scroll Here' button at the bottom, then `Scroll Mouse Wheel` to rapidly cycle through filtered items for preview.
    * Use the `Jump to item` button right by the scroll box to quickly navigate to the previewed/selected item in your list.
 
-7. **Chat Integration:**
+7. **Penumbra integration & Mods affecting items:**
+  * When Penumbra is active, Glamour Tagger detects modded items and marks them in the 'Penumbra Mods' column.
+  * You can see your mods affecting the items in tooltips and in the bottom panel by selecting an item.
+  * New states added for mods and items, which lets you filter out items where mod parts are uninstalled or where a mod falsely claims an item is modified (`Demodded` state) and items where the mod does not render properly or is unusable for you (`Unusable` state).
+  * Penumbra Redraw & Recatch: you can trigger a manual cache recatch or force a Penumbra redraw on your character.
+  * Penumbra Cache Collection: Glamour Tagger now collects modded items and their active mods from Penumbra on startup and whenever you click `Recatch & Redraw`.
+  * Penumbra Notifications: Automatic popup alerts notify you when Penumbra refreshes caches and detects newly modded items or reintroduced mods previously marked as `Demodded` or `Unusable`. Also you can configure notification frequency or mute them in the Settings.
+
+8. **Chat Integration:**
    * Shift + Left-click any item name in the table to link the item directly into your chat.
      
-8. **Item links:**
+9. **Item links:**
    * Quickly look up equipment items using integrated links to community databases:
      * [Garland Tools](https://www.garlandtools.org/) for detailed item origin and recipe data.
      * [Gamer Escape](https://ffxiv.gamerescape.com/) for complete item lore and acquisition guides.
      * [FFXIV Teamcraft](https://ffxivteamcraft.com/) for craft tracking.
 
-9. **Adjust visuals:**
+10. **Adjust visuals:**
     * Look up the visual adjustments for icon sizes in the Options menu - customize the size of icons in the lists or of the hover-over icon reveals.
 
-10. **Automatic backup system with restore functions:**
+11. **Automatic backup system with restore functions:**
     * The plugin has an automatic backup system to save your tags, flags and configs periodically and before importing to prevent data loss.
     * Open the Backup & Restore Manager from the Options menu to inspect backups or restore your data via Merge or Full Reset modes.
+
+12. **Standalone & Failsafe Operation:**
+    * Glamour Tagger includes full IPC failsafes. If Glamourer or Penumbra are disabled or not installed, the plugin operates smoothly in standalone mode without crashing or throwing errors.
 
 ---
 
