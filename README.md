@@ -6,6 +6,8 @@ Designed to help you tag, flag, organize and filter all items effortlessly, brid
 
 ---
 
+## New with v1.4.0.0
+* Introducing Dye Sets with more Glamourer integration!
 ## New with v1.3.0.0
 * Left ring slot preview support!
 * Penumbra integration to see and filter by your mods!
@@ -48,6 +50,13 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
 5. **Preview Items:**
    * Toggle between 'Glamourer Preview' and 'Fitting Room Try On'. Right-click any item to instantly preview.
    * When previewing rings, you can select your right, your left or both of your hands to preview the items.
+     
+   * Dye Previews: Select a Dye Set to preview items with dyes applied in both Glamourer and Fitting Room modes.
+   * Click the swap icon inside a dye set to swap primary/secondary dyes and use the Brush icon to apply any dye set to one or more selected equipment slots without having to activate that dye set globally.
+  
+   * Fitting Room Assistant: Native fitting room previews track state via the Fitting Room Memory Assistant window.
+   * Revert Character to Game State: Click the button to instantly reset your character's appearance back to their actual ingame look.
+
 
 6. **Fast Scrolling:**
    * Hover over the 'Scroll Here' button at the bottom, then `Scroll Mouse Wheel` to rapidly cycle through filtered items for preview.
