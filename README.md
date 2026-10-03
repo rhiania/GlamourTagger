@@ -6,6 +6,8 @@ Designed to help you tag, flag, organize and filter all items effortlessly, brid
 
 ---
 
+## New with v1.4.1.0
+* Supplemented dyeing slots with an option to keep current filters, and added a quick job filter button.
 ## New with v1.4.0.0
 * Introducing Dye Sets with more Glamourer integration!
 ## New with v1.3.0.0
@@ -45,6 +47,7 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
    * Use headers or the search bars to filter items.
    * For tag filters, switch between **OR Mode** (items matching *ANY* selected tag) and **AND Mode** (items matching *ALL* selected tags simultaneously), as well as hide filters with the **NOT** logic.
    * Use `t:`, `p:`, `j:`, `id:`, `m:` prefixes to quickly filter out tags, penumbra mods, jobs, item IDs or model IDs.
+   * **New:** Click the job icon in the 'Item Name' header to instantly list the items of your current job (same as j:). Click it again to clear the search.
    * Check 'Only Show One Item Per Model Type' (with optional 'Ignore Variants') to clean up duplicate models.
 
 5. **Preview Items:**
@@ -53,6 +56,8 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
      
    * Dye Previews: Select a Dye Set to preview items with dyes applied in both Glamourer and Fitting Room modes.
    * Click the swap icon inside a dye set to swap primary/secondary dyes and use the Brush icon to apply any dye set to one or more selected equipment slots without having to activate that dye set globally.
+   *  Dye Targets: By default the brush dyes the slots selected in the slot filter. Hold Shift and click slots on the Equipment Bar to pick different slots to dye without changing the filter. Works with RR/LR and 'ALL' too.
+   *  Switch on the Dye Target toggle to do the same without holding Shift. Slots marked with a small droplet will be dyed. Middle-click the toggle to make the dye targets follow the filter again.
   
    * Fitting Room Assistant: Native fitting room previews track state via the Fitting Room Memory Assistant window.
    * Revert Character to Game State: Click the button to instantly reset your character's appearance back to their actual ingame look.
@@ -68,7 +73,7 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
   * New states added for mods and items, which lets you filter out items where mod parts are uninstalled or where a mod falsely claims an item is modified (`Demodded` state) and items where the mod does not render properly or is unusable for you (`Unusable` state).
   * Penumbra Redraw & Recatch: you can trigger a manual cache recatch or force a Penumbra redraw on your character.
   * Penumbra Cache Collection: Glamour Tagger now collects modded items and their active mods from Penumbra on startup and whenever you click `Recatch & Redraw`.
-  * Penumbra Notifications: Automatic popup alerts notify you when Penumbra refreshes caches and detects newly modded items or reintroduced mods previously marked as `Demodded` or `Unusable`. Also you can configure notification frequency or mute them in the Settings.
+  * Penumbra Notifications: Automatic pop-up alerts notify you when Penumbra refreshes caches and detects newly modded items or reintroduced mods previously marked as `Demodded` or `Unusable`. Also you can configure notification frequency or mute them in the Settings.
 
 8. **Chat Integration:**
    * Shift + Left-click any item name in the table to link the item directly into your chat.
