@@ -8,9 +8,9 @@
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/rhiania/GlamourTagger",
     "IconUrl": "https://raw.githubusercontent.com/rhiania/GlamourTagger/main/icon.png",
-    "DownloadLinkInstall": "https://github.com/rhiania/GlamourTagger/releases/download/v1.4.0.0/GlamourTagger1.4.0.0.zip",
-    "DownloadLinkUpdate": "https://github.com/rhiania/GlamourTagger/releases/download/v1.4.0.0/GlamourTagger1.4.0.0.zip",
-    "DownloadLinkTesting": "https://github.com/rhiania/GlamourTagger/releases/download/v1.4.0.0/GlamourTagger1.4.0.0.zip",
+    "DownloadLinkInstall": "https://github.com/rhiania/GlamourTagger/releases/download/v1.4.1.0/GlamourTagger1.4.1.0.zip",
+    "DownloadLinkUpdate": "https://github.com/rhiania/GlamourTagger/releases/download/v1.4.1.0/GlamourTagger1.4.1.0.zip",
+    "DownloadLinkTesting": "https://github.com/rhiania/GlamourTagger/releases/download/v1.4.1.0/GlamourTagger1.4.1.0.zip",
     "Tags": [
       "glamour",
       "glamourer",
