@@ -6,11 +6,13 @@ Designed to help you tag, flag, organize and filter all items effortlessly, brid
 
 ---
 
-## New with v1.4.1.0
+### New with v1.4.2.0
+* You can remove equipped slots from self or equip the Emperor's New Pieces with a click.
+### New with v1.4.1.0
 * Supplemented dyeing slots with an option to keep current filters, and added a quick job filter button.
-## New with v1.4.0.0
+### New with v1.4.0.0
 * Introducing Dye Sets with more Glamourer integration!
-## New with v1.3.0.0
+### New with v1.3.0.0
 * Left ring slot preview support!
 * Penumbra integration to see and filter by your mods!
 
@@ -53,6 +55,7 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
 5. **Preview Items:**
    * Toggle between 'Glamourer Preview' and 'Fitting Room Try On'. Right-click any item to instantly preview.
    * When previewing rings, you can select your right, your left or both of your hands to preview the items.
+   * **New:** Remove equipped items from self or equip the Emperor's New Pieces with a click.
      
    * Dye Previews: Select a Dye Set to preview items with dyes applied in both Glamourer and Fitting Room modes.
    * Click the swap icon inside a dye set to swap primary/secondary dyes and use the Brush icon to apply any dye set to one or more selected equipment slots without having to activate that dye set globally.
