@@ -5,7 +5,8 @@ Designed to help you tag, flag, organize and filter all items effortlessly, brid
 > **This mod would not have come to life without [Glamourer](https://github.com/Otuv/Glamourer) or [Penumbra](https://github.com/xivdev/Penumbra).** Huge thanks to their developers for the inspiration and integration capabilities!
 
 ---
-
+### New with v1.4.3.0
+* Instant Hover Over Dye Preview: Shift+click a dye square and hover over the colors to see them instantly on your character. Plus Fitting Room Try On fixes and general polish.
 ### New with v1.4.2.0
 * You can remove equipped slots from self or equip the Emperor's New Pieces with a click.
 ### New with v1.4.1.0
@@ -61,6 +62,7 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
    * Click the swap icon inside a dye set to swap primary/secondary dyes and use the Brush icon to apply any dye set to one or more selected equipment slots without having to activate that dye set globally.
    *  Dye Targets: By default the brush dyes the slots selected in the slot filter. Hold Shift and click slots on the Equipment Bar to pick different slots to dye without changing the filter. Works with RR/LR and 'ALL' too.
    *  Switch on the Dye Target toggle to do the same without holding Shift. Slots marked with a small droplet will be dyed. Middle-click the toggle to make the dye targets follow the filter again.
+   * **New:** Instant Hover Over Dye Preview: Opening the dye popup with Shift+click allows you now to dye multiple items when hovering over the colors (or scrolling there).
   
    * Fitting Room Assistant: Native fitting room previews track state via the Fitting Room Memory Assistant window.
    * Revert Character to Game State: Click the button to instantly reset your character's appearance back to their actual ingame look.
