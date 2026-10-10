@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>1.4.3.0</Version>
+    <!-- Manifest fields (see https://github.com/goatcorp/DalamudPackager/blob/827d88dc/DalamudPackager/DalamudPackager.cs#L420) -->
+    <Author>Rhiani</Author>
+    <Name>Glamour Tagger</Name>
+    <Punchline>Tag, flag, filter, then preview items for your glamours.</Punchline>
+    <Description>Designed to help you tag, flag, organize and filter items effortlessly to preview them, bridging the gap between massive item databases, your installed mods, and your glamour.
+        
+        - Create custom tags, manage those tags, flag items between 5 different categories,
+        - See exactly which Penumbra mods affect any item directly in your list,
+        - Filter items by your tags, mods, flags and other attributes ,
+        - Preview them with dyes one by one or cycle through them on your character or in the fitting room.
+        - Dye your previewed item or items with easy use buttons and chose between dye sets.
+
+  Glamour Tagger works completely standalone!
+  However, installing Glamourer (for character previews) and Penumbra (for mod tracking) unlocks its full potential.</Description>
+    <RepoUrl>https://github.com/rhiania/GlamourTagger</RepoUrl>
+    <Tags>glamour;glamourer;tag;filter;plugin;tool;qol;penumbra;mods;organize;organizer;</Tags>
+    <PluginIcon>icon.png</PluginIcon>
+    <IconUrl>https://raw.githubusercontent.com/rhiania/GlamourTagger/main/icon.png</IconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
