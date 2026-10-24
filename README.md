@@ -77,12 +77,12 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
    * Use the `Jump to item` button right by the scroll box to quickly navigate to the previewed/selected item in your list.
 
 7. **Penumbra integration & Mods affecting items:**
-  * When Penumbra is active, Glamour Tagger detects modded items and marks them in the 'Penumbra Mods' column.
-  * You can see your mods affecting the items in tooltips and in the bottom panel by selecting an item.
-  * New states added for mods and items, which let you filter out items where mod parts are uninstalled or where a mod falsely claims an item is modified (`Demodded` state) and items where the mod does not render properly or is unusable for you (`Unusable` state).
-  * Penumbra Redraw & Recatch: you can trigger a manual cache recatch or force a Penumbra redraw on your character.
-  * Penumbra Cache Collection: Glamour Tagger now collects modded items and their active mods from Penumbra on startup and whenever you click `Recatch & Redraw`.
-  * Penumbra Notifications: Automatic pop-up alerts notify you when Penumbra refreshes caches and detects newly modded items or reintroduced mods previously marked as `Demodded` or `Unusable`. Also you can configure notification frequency or mute them in the Settings.
+   * When Penumbra is active, Glamour Tagger detects modded items and marks them in the 'Penumbra Mods' column.
+   * You can see your mods affecting the items in tooltips and in the bottom panel by selecting an item.
+   * New states added for mods and items, which let you filter out items where mod parts are uninstalled or where a mod falsely claims an item is modified (`Demodded` state) and items where the mod does not render properly or is unusable for you (`Unusable` state).
+   * Penumbra Redraw & Recatch: you can trigger a manual cache recatch or force a Penumbra redraw on your character.
+   * Penumbra Cache Collection: Glamour Tagger now collects modded items and their active mods from Penumbra on startup and whenever you click `Recatch & Redraw`.
+   * Penumbra Notifications: Automatic pop-up alerts notify you when Penumbra refreshes caches and detects newly modded items or reintroduced mods previously marked as `Demodded` or `Unusable`. Also you can configure notification frequency or mute them in the Settings.
 
 8. **Chat Integration:**
    * Shift + Left-click any item name in the table to link the item directly into your chat.
