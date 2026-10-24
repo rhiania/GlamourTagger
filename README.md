@@ -5,6 +5,9 @@ Designed to help you tag, flag, organize and filter all items effortlessly, brid
 > **This mod would not have come to life without [Glamourer](https://github.com/Otuv/Glamourer) or [Penumbra](https://github.com/xivdev/Penumbra).** Huge thanks to their developers for the inspiration and integration capabilities!
 
 ---
+### New with v1.4.4.0
+* Smarter search: combine terms in the Item Name search with and/or/not logic, and use prefix groups for your searches. 
+* Faster filtering, more reliable saving and the start of a general cleanup.
 ### New with v1.4.3.0
 * Instant Hover Over Dye Preview: Opening the dye popup with Shift+click now allows you to preview dyes on multiple items when hovering over the colors. Plus Fitting Room Try On fixes and general polish.
 ### New with v1.4.2.0
@@ -43,28 +46,29 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
    * Open `Options -> Tag Management` to rename tags, customize badge colors, view item counts, or delete tags (requires `Ctrl + Shift`).
 
 3. **Export or Import Tags, Favourites and Wishlists:**
-   * Easily back up or share your tags, favourites and wishlists via JSON files with custom directory path support.
+   * Easily back up, share or merge in your tags, favourites and wishlists via JSON files with custom directory path support.
 
 4. **Filter & Search:**
    * Use the new Equipment bar to filter by item slots quickly (one slot with left-clicking and add item slots with right-clicking).
    * Use headers or the search bars to filter items.
    * For tag filters, switch between **OR Mode** (items matching *ANY* selected tag) and **AND Mode** (items matching *ALL* selected tags simultaneously), as well as hide filters with the **NOT** logic.
    * Use `t:`, `p:`, `j:`, `id:`, `m:` prefixes to quickly filter out tags, penumbra mods, jobs, item IDs or model IDs.
-   * **New:** Click the job icon in the 'Item Name' header to instantly list the items of your current job (same as j:). Click it again to clear the search.
+   * **New:** Search with logic: Combine item names and prefix searches with and, or, not operators and groups, e.g. (t:gothic; robe) or (t:lolita; -dress).
+   * Click the job icon in the 'Item Name' header to instantly list the items of your current job (same as j:). Click it again to clear the search.
    * Check 'Only Show One Item Per Model Type' (with optional 'Ignore Variants') to clean up duplicate models.
 
 5. **Preview Items:**
    * Toggle between 'Glamourer Preview' and 'Fitting Room Try On'. Right-click any item to instantly preview.
    * When previewing rings, you can select your right, your left or both of your hands to preview the items.
-   * **New:** Remove equipped items from self or equip the Emperor's New Pieces with a click.
+   * Remove equipped items from self or equip the Emperor's New Pieces with a click.
      
    * Dye Previews: Select a Dye Set to preview items with dyes applied in both Glamourer and Fitting Room modes.
    * Click the swap icon inside a dye set to swap primary/secondary dyes and use the Brush icon to apply any dye set to one or more selected equipment slots without having to activate that dye set globally.
    *  Dye Targets: By default the brush dyes the slots selected in the slot filter. Hold Shift and click slots on the Equipment Bar to pick different slots to dye without changing the filter. Works with RR/LR and 'ALL' too.
    *  Switch on the Dye Target toggle to do the same without holding Shift. Slots marked with a small droplet will be dyed. Middle-click the toggle to make the dye targets follow the filter again.
-   * **New:** Instant Hover Over Dye Preview: Opening the dye popup with Shift+click now allows you to preview dyes on multiple items when hovering over the colors. (or scrolling there).
+   *  **New:** Instant Hover Over Dye Preview: Opening the dye popup with Shift+click now allows you to preview dyes on multiple items when hovering over the colors. (or scrolling there).
   
-   * Fitting Room Assistant: Native fitting room previews track state via the Fitting Room Memory Assistant window.
+   * Fitting Room Memory Assistant: Native fitting room previews track state via the Fitting Room Memory Assistant window.
    * Revert Character to Game State: Click the button to instantly reset your character's appearance back to their actual ingame look.
 
 
@@ -75,7 +79,7 @@ To install this plugin in FFXIV via Dalamud, add the following custom repository
 7. **Penumbra integration & Mods affecting items:**
   * When Penumbra is active, Glamour Tagger detects modded items and marks them in the 'Penumbra Mods' column.
   * You can see your mods affecting the items in tooltips and in the bottom panel by selecting an item.
-  * New states added for mods and items, which lets you filter out items where mod parts are uninstalled or where a mod falsely claims an item is modified (`Demodded` state) and items where the mod does not render properly or is unusable for you (`Unusable` state).
+  * New states added for mods and items, which let you filter out items where mod parts are uninstalled or where a mod falsely claims an item is modified (`Demodded` state) and items where the mod does not render properly or is unusable for you (`Unusable` state).
   * Penumbra Redraw & Recatch: you can trigger a manual cache recatch or force a Penumbra redraw on your character.
   * Penumbra Cache Collection: Glamour Tagger now collects modded items and their active mods from Penumbra on startup and whenever you click `Recatch & Redraw`.
   * Penumbra Notifications: Automatic pop-up alerts notify you when Penumbra refreshes caches and detects newly modded items or reintroduced mods previously marked as `Demodded` or `Unusable`. Also you can configure notification frequency or mute them in the Settings.
